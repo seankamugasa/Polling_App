@@ -1,0 +1,25 @@
+{% load static %}
+{% load bootstrap4 %}
+{% block page_header %}
+  <div class="jumbotron">
+      <h1 class="display-3">-Welcome to the Polling App-</h1>
+
+      <p class="lead">Thank you for choosing the Polling App.
+          Kindly lookup for the best question and vote to see polling results.
+      </p>
+      
+  </div>
+  {% endblock page_header %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+{% if latest_question_list %}
+    <ul>
+        {% for question in latest_question_list %}
+            <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}
+            </a></li>
+            {% endfor %}
+    </ul>
+    {% else %}
+        <p>No polls are available.</p>
+        {% endif %}
