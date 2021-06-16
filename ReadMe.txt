@@ -19,4 +19,4 @@ http://127.0.0.1:8166/polls/    (To access the polling application)
 
 
 DEVELOPERS:
-<a href='https://seankamugasa.github.io/'>Sean Kamugasa</a>
+https://seankamugasa.github.io/
