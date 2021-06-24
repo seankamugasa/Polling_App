@@ -2,15 +2,17 @@
 *Assuming you are familiar with migartions
 *Assuming you are using Visual studio text editor in Ubuntu-- Run the following in your terminal.
 
-a) $ pipenv shell {To create a virtual environment}
+a) $ cd mysite
 
-b) $ ls {To see if manage.py is listed among}
+b) $ pipenv shell {To create a virtual environment}
 
-c) $ pip install -r requirements.txt
+c) $ ls {To see if manage.py is listed among}
 
-d) $ python manage.py createsuperuser
+d) $ pip install -r requirements.txt
 
-e) $ python manage.py runserver 8166 (Assuming you are using port 8166)
+e) $ python manage.py createsuperuser
+
+f) $ python manage.py runserver 8166 (Assuming you are using port 8166)
 
 ---From your web tab of Chrome or Mozilla etc, Enter:
 
