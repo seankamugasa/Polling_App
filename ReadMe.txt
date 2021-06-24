@@ -17,7 +17,8 @@ f) $ python manage.py runserver 8166 (Assuming you are using port 8166)
 ---From your web tab of Chrome or Mozilla etc, Enter:
 
 http://127.0.0.1:8166/admin/    (To access Admin panel)
-http://127.0.0.1:8166/polls/    (To access the polling application)
+http://127.0.0.1:8166/   (use any port number to gain access to the polling application) 
+- Examples of port numbers 8002, 8000, 8083 etc
 
 
 DEVELOPERS:
