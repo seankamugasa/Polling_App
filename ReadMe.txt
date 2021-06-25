@@ -23,3 +23,4 @@ http://127.0.0.1:8166/   (use any port number to gain access to the polling appl
 
 DEVELOPERS:
 https://seankamugasa.github.io/
+Email: seankamugasa@gmail.com
